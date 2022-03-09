@@ -1,0 +1,35 @@
+.flexible {
+  display: flex;
+  justify-content: center;
+}
+.flexible > div {
+  background-color: white;
+  border: 1px groove grey;
+  border-radius:10px;
+  margin: 10px;
+  padding: 20px;
+  justify-content: space-between;
+}
+.image{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+p{
+  font-size:small;
+  text-align:center;
+  width:100px;
+  height:20px;
+}
+
+.number{
+  font-size:x-large;
+}
+.score>p{
+  margin-left:0px;
+  margin-top:0px;
+  padding:0px;
+}
+footer{
+  text-align:center;
+}
